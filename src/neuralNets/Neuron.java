@@ -1,7 +1,5 @@
 package neuralNets;
 
-//git test
-
 import java.util.ArrayList;
 
 public class Neuron{
