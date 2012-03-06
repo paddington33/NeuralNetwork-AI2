@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.ListIterator;
 
 public class NeuralNetwork implements Iterable<ArrayList<Neuron>>{
-	private ArrayList<ArrayList<Neuron>> network;
+	protected ArrayList<ArrayList<Neuron>> network;
 	
 	public NeuralNetwork(ArrayList<ArrayList<Neuron>> network)
 	{

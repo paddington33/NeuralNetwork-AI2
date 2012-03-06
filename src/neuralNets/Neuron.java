@@ -6,8 +6,8 @@ public class Neuron{
 	private double bias = Math.random();
 	protected double output;
 	protected double delta;
-	private ArrayList<NeuronConnection> inputs = new ArrayList<NeuronConnection>();
-	private ArrayList<NeuronConnection> outputs = new ArrayList<NeuronConnection>();
+	protected ArrayList<NeuronConnection> inputs = new ArrayList<NeuronConnection>();
+	protected ArrayList<NeuronConnection> outputs = new ArrayList<NeuronConnection>();
 	
 	private double alpha = .5;
 
